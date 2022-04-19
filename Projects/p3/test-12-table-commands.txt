@@ -1,0 +1,19 @@
+CREATE test 4 string double int bool str dub num flag
+GENERATE FOR test bst INDEX ON str
+PRINT FROM test 2 str num ALL
+GENERATE FOR test hash INDEX ON str
+PRINT FROM test 2 str num ALL
+INSERT INTO test 2 ROWS
+meep 45.6 1 true
+moop 65.4 2 false
+PRINT FROM test 2 str num ALL
+JOIN test AND test WHERE str = str AND PRINT 3 str 1 str 2 num 1
+INSERT INTO test 2 ROWS
+meep 45.6 3 true
+moop 65.4 4 false
+JOIN test AND test WHERE str = str AND PRINT 3 str 1 str 2 num 1
+DELETE FROM test WHERE str = moop
+JOIN test AND test WHERE str = str AND PRINT 3 str 1 str 2 num 1
+PRINT FROM test 2 str num ALL
+REMOVE test
+QUIT

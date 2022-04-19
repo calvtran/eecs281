@@ -1,0 +1,32 @@
+CREATE table 2 string int key val
+INSERT INTO table 16 ROWS
+a 3
+b 8
+c 7
+d 2
+e 8
+f 3
+g 6
+h 2
+i 4
+j 7
+k 6
+l 7
+m 6
+n 4
+o 1
+p 3
+PRINT FROM table 2 key val WHERE val < 5
+PRINT FROM table 2 key val WHERE val > 5
+GENERATE FOR table bst INDEX ON val
+PRINT FROM table 2 key val WHERE val < 5
+PRINT FROM table 2 key val WHERE val > 5
+PRINT FROM table 2 key val WHERE val = 6
+PRINT FROM table 2 key val WHERE val = 4
+PRINT FROM table 2 key val WHERE val = 3
+GENERATE FOR table hash INDEX ON val
+PRINT FROM table 2 key val WHERE val = 6
+PRINT FROM table 2 key val WHERE val = 4
+PRINT FROM table 2 key val WHERE val = 3
+REMOVE table
+QUIT

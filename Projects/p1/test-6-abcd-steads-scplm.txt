@@ -1,0 +1,12 @@
+S
+8
+// -s -b abcd -e steads -c -p -l -o M < test-6-abcd-steads-scplm.txt > test-out.txt
+// Test all morphs 'abcd' to 'steads'
+abcd
+bacd
+badc
+bads
+xbads
+xtads
+xteads
+steads

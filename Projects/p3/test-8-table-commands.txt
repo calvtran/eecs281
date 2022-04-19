@@ -1,0 +1,32 @@
+CREATE test 2 int string order name
+INSERT INTO test 8 ROWS
+1 print
+2 delete
+3 gum
+4 delete
+5 print
+6 blast
+7 fun
+8 print
+PRINT FROM test 2 order name ALL
+GENERATE FOR test hash INDEX ON name
+PRINT FROM test 2 order name WHERE name = print
+DELETE FROM test WHERE name = delete
+PRINT FROM test 2 order name ALL
+PRINT FROM test 2 order name WHERE name = print
+INSERT INTO test 4 ROWS
+9 suit
+10 print
+11 boar
+12 print
+PRINT FROM test 2 order name ALL
+PRINT FROM test 2 order name WHERE name = print
+REMOVE test
+CREATE test 4 string double int bool str dub num flag
+INSERT INTO test 1 ROWS
+one 1.23 456 true
+two  7.89 1011 false
+PRINT FROM test 4 str dub num flag ALL
+PRINT FROM test 4 str dub num flag ALL
+REMOVE test
+QUIT

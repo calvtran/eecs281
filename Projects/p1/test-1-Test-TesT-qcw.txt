@@ -1,0 +1,18 @@
+C
+9
+// -q -b Test -e TesT -c -o W < test-1-Test-TesT-qcw.txt > test-out.txt
+// Test all special chars
+// & - abcde, edcba,
+// [] - tat, tbt, tct, tdt, tet, tft, tgt, tht,
+// ! - teST, etST, TesT, TseT, TEst, TEts
+// ? - Test, TTest, tEst, tEEst, 
+//	   teSt, teSSt, tesT, tesTT
+abcde&
+t[abcdefgh]t
+te!ST
+Tes!T
+TEst!
+T?est
+tE?st
+teS?t
+tesT?

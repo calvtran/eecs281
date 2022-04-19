@@ -1,0 +1,21 @@
+S
+17
+// -q -b word -e pork -c -p -o M < test-8-word-pork-qcpm.txt > Test-out.txt
+// Test change and swap only
+word
+toolong
+owrd
+ignore
+owdr
+irrelevant
+pwdr
+donteven
+listen
+stopnow
+pwdl
+please
+pwrl
+porl
+thankyou
+pork
+goodbye

@@ -1,0 +1,15 @@
+S
+10
+// -q -b ship -e junk -c -p -l -o W < test-11-ship-junk-qclpw.txt > test-out.txt
+// Test with no solution
+// 'ship' to 'junk'
+chip
+chop
+junk
+leet
+let
+shin
+ship
+shop
+shot
+stop

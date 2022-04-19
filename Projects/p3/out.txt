@@ -1,0 +1,40 @@
+% New table test with column(s) str dub num flag created
+% Created bst index for table test on column str
+% str num 
+Printed 0 matching rows from test
+% Created hash index for table test on column str
+% str num 
+Printed 0 matching rows from test
+% Added 2 rows to test from position 0 to 1
+% str num 
+meep 1 
+moop 2 
+Printed 2 matching rows from test
+% str str num 
+meep meep 1 
+moop moop 2 
+Printed 2 rows from joining test to test
+% Added 2 rows to test from position 2 to 3
+% str str num 
+meep meep 1 
+meep meep 1 
+moop moop 2 
+moop moop 2 
+meep meep 3 
+meep meep 3 
+moop moop 4 
+moop moop 4 
+Printed 8 rows from joining test to test
+% Deleted 2 rows from test
+% str str num 
+meep meep 1 
+meep meep 1 
+meep meep 3 
+meep meep 3 
+Printed 4 rows from joining test to test
+% str num 
+meep 1 
+meep 3 
+Printed 2 matching rows from test
+% Table test deleted
+% Thanks for being silly!

@@ -1,0 +1,15 @@
+C
+8
+// -q -b testingX -e Xtesting -p -o M < test-3-testingX-Xtesting-qpm.txt > test-out.txt
+// Test swap 'testingX' to 'Xtesting'
+// Test !
+// testingX, testinXg, randoms, testiXng, testXing, reading,
+// tesXting, teXsting, compute, tXesting, Xtesting, passing
+testingX!
+randoms
+testiX!ng
+reading
+tesX!ting
+compute
+tX!esting
+passing

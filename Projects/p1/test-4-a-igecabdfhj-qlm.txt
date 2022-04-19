@@ -1,0 +1,15 @@
+S
+10
+// -q -b a -e igecabdfhj -l -o M < test-4-a-igecabdfhj-qlm.txt > test-out.txt
+// Test insert front back 
+// 'a' to 'igecabdfhj'
+a
+ab
+cab
+cabd
+ecabd
+ecabdf
+gecabdf
+gecabdfh
+igecabdfh
+igecabdfhj

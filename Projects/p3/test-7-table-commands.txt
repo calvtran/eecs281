@@ -1,0 +1,21 @@
+CREATE test 1 string name
+INSERT INTO test 8 ROWS
+bee
+fly
+gum
+chum
+suit
+bomb
+boar
+wasp
+PRINT FROM test 1 name WHERE name < c
+DELETE FROM test WHERE name < c
+PRINT FROM test 1 name WHERE name < c
+PRINT FROM test 1 name WHERE name > s
+DELETE FROM test WHERE name > s
+PRINT FROM test 1 name WHERE name > s
+PRINT FROM test 1 name WHERE name = chum
+DELETE FROM test WHERE name = chum
+PRINT FROM test 1 name WHERE name = chum
+REMOVE test
+QUIT

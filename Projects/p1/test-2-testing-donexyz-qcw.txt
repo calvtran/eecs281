@@ -1,0 +1,15 @@
+C
+8
+// -q -b testing -e donexyz -c -o W < test-2-testing-donexyz-qcw.txt > test-out.txt
+// Test change 'testing' to 'donexyz'
+// Test []
+// testing, tosting, randoms, tostxng, tosexng, reading,
+// tosexnz, dosexng, compute, dosexyz, donexyz, passing
+t[eo]sting
+randoms
+tos[te]xng
+reading
+[td]osexnz
+compute
+do[sn]exyz
+passing

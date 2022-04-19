@@ -1,0 +1,31 @@
+CREATE test 4 string double int bool str dub num flag
+INSERT INTO test 12 ROWS
+meep 45.6 789 true
+moop 65.4 987 false
+phone 13.3 12 true
+ruler 1.3 23 false
+calculator 5.2 34 true 
+seed 6.1 45 false
+head 43.1 56 true
+note 12.1 25 false
+uhh 12.3 21 true
+paper 42.1 65 false
+bug 7.3 74 true
+guy 22.2 100 false
+DELETE FROM test WHERE str > u
+DELETE FROM test WHERE str < bugs
+DELETE FROM test WHERE str = seed
+DELETE FROM test WHERE dub > 65.3
+DELETE FROM test WHERE dub < 1.4
+DELETE FROM test WHERE dub = 5.2
+DELETE FROM test WHERE num > 788
+DELETE FROM test WHERE num < 13
+DELETE FROM test WHERE num = 100
+DELETE FROM test WHERE flag > false
+DELETE FROM test WHERE flag < true
+INSERT INTO test 1 ROW
+bender 48.2 45 true
+DELETE FROM test WHERE flag = true
+PRINT FROM test 4 str dub num flag ALL
+REMOVE test
+QUIT

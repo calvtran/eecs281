@@ -1,0 +1,17 @@
+CREATE table 2 string double name number
+INSERT INTO table 8 ROWS
+A 26.234
+B 96.684
+C 684.25
+D 985.849
+A 742.848
+B 544.451
+C 69.420
+D 20.69
+GENERATE FOR table bst INDEX ON number
+PRINT FROM table 2 name number ALL
+DELETE FROM table WHERE number > 100.0
+PRINT FROM table 2 name number ALL
+REMOVE table
+NOPE
+QUIT

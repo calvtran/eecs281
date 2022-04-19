@@ -1,0 +1,31 @@
+CREATE table1 3 string string bool first last boolean
+INSERT INTO table1 5 ROWS
+A A true
+B A false
+C A true
+D A false
+E A true
+CREATE table2 3 string string bool first last boolean
+INSERT INTO table2 5 ROWS
+F B true
+G B false
+H B true
+I B false
+J B true
+JOIN table1 AND table2 WHERE boolean = boolean AND PRINT 4 first 1 last 1 first 2 last 2
+JOIN table2 AND table1 WHERE boolean = boolean AND PRINT 4 first 1 last 1 first 2 last 2
+# COMMENT # COMMENT
+JOIN table1 AND table2 WHERE boolean = boolean AND PRINT 4 first 2 last 2 first 1 last 1
+JOIN table2 AND table1 WHERE boolean = boolean AND PRINT 4 first 2 last 2 first 1 last 1
+DELETE FROM table2 WHERE last = B
+INSERT INTO table2 5 ROWS
+A B true
+A B false
+A B true
+A B false
+A B true
+JOIN table1 AND table2 WHERE last = first AND PRINT 4 first 1 last 1 first 2 last 2
+JOIN table2 AND table1 WHERE last = first AND PRINT 4 first 1 last 1 first 2 last 2
+REMOVE table1
+REMOVE table2
+QUIT

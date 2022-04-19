@@ -1,0 +1,34 @@
+CREATE table 3 int string bool num name T/F
+PRINT FROM table 3 num name T/F ALL
+PRINT FROM table 3 num name T/F WHERE T/F = false
+DELETE FROM table WHERE num > 0
+DELETE FROM table WHERE T/F = false
+GENERATE FOR table hash INDEX ON T/F
+GENERATE FOR table bst INDEX ON num
+CREATE table2 2 string bool name2 T/F
+INSERT INTO table2 3 ROWS
+one true
+two false
+three false
+JOIN table AND table2 WHERE T/F = T/F AND PRINT 2 name 1 name2 2
+REMOVE table
+REMOVE table2
+CREATE words 3 int string int order word number
+INSERT INTO words 7 ROWS
+1 fun 5
+2 dig 1
+3 gin 4
+4 bat 3
+5 ear 2
+6 ace 7
+7 cut 6
+PRINT FROM words 3 order word number WHERE number < 4
+GENERATE FOR words hash INDEX ON number
+PRINT FROM words 3 order word number WHERE number < 4
+GENERATE FOR words bst INDEX ON number
+PRINT FROM words 3 order word number WHERE number < 4
+PRINT FROM words 3 order word number WHERE word > c
+GENERATE FOR words bst INDEX ON word
+PRINT FROM words 3 order word number WHERE word > c
+REMOVE words
+QUIT

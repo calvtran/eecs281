@@ -1,0 +1,15 @@
+S
+6
+// -q -b test -e weak -c -p -o W < test-9-test-weak-qcpw.txt > test-out.txt
+// Test 'test' to 'weak'
+// Test no solution
+test
+// west
+// weat
+etst
+// stop
+east
+wast
+// nope
+waek
+weak

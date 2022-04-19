@@ -1,0 +1,9 @@
+Words in morph: 8
+word
+s,0
+s,2
+c,0,p
+c,3,l
+c,2,r
+c,1,o
+c,3,k

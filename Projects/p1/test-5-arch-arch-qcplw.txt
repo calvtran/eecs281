@@ -1,0 +1,9 @@
+S
+5
+// -q -b arch -e arch -c -p -l -o W < test-5-arch-arch-qcplw.txt > test-out.txt
+// Test 'arch' to 'arch'
+arch
+best
+cart
+deck
+east
